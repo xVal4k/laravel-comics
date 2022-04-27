@@ -9,7 +9,8 @@
 </head>
 <body>
     @include('guest.partials.header')
-    @yield('content')
+    @include('guest.partials.body')
 
+    @yield('content')
 </body>
 </html>

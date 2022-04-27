@@ -1,5 +1,7 @@
 //
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 @import 'partials/header';
+@import 'partials/body';
 
 * {
     margin: 0;
@@ -7,6 +9,13 @@
     box-sizing: border-box;
 }
 
-body {
-    background: tomato;
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.container {
+    width: 70%;
+    max-width: 1400px;
+    margin: 0 auto;
 }
