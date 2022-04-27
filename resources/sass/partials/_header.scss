@@ -1,0 +1,18 @@
+.container {
+    width: 70%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.header_blue {
+    background: cornflowerblue;
+}
+
+.header_blue .container {
+    display: flex;
+    justify-content: end;
+}
+
+.header_blue p {
+    margin-left: 1.5rem;
+}
