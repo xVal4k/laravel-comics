@@ -9,8 +9,11 @@
 </head>
 <body>
     @include('guest.partials.header')
-    @include('guest.partials.body')
 
     @yield('content')
+
+    @include('guest.partials.body')
+    @include('guest.partials.footer')
+
 </body>
 </html>
