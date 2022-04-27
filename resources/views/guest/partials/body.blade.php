@@ -17,6 +17,39 @@
     </section>
 
     <section id="sec_3">
-        <div class="container"></div>
+        <div class="container">
+            <ul class="sec3_links">
+                <li>
+                    <a href="{{ route('blank_page') }}">
+                        <img src="./images/buy-comics-digital-comics.png" alt="img">
+                        DIGITAL COMICS
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ route('blank_page') }}">
+                        <img src="./images/buy-comics-merchandise.png" alt="img">
+                        DC MERCHANDISE
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ route('blank_page') }}">
+                        <img src="./images/buy-comics-subscriptions.png" alt="img">
+                        SUBSCRIPTION
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ route('blank_page') }}">
+                        <img src="./images/buy-comics-shop-locator.png" alt="img">
+                        COMIC SHOP LOCATOR
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ route('blank_page') }}">
+                        <img src="./images/buy-dc-power-visa.svg" alt="img">
+                        DC POWER VISA
+                    </a>
+                </li>
+            </ul>
+        </div>
     </section>
 </main>
