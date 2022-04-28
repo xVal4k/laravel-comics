@@ -123,7 +123,7 @@ main #sec_3 .sec3_links li a {
 }
 
 footer .footer_links {
-  background-image: "./images/footer-bg.jpg";
+  background-image: url("../images/footer-bg.jpg");
   background-size: cover;
   height: 25rem;
   overflow: hidden;
